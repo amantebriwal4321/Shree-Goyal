@@ -99,7 +99,7 @@ export default function Hero() {
 
                             {/* Call Now */}
                             <Button size="lg" className="w-full sm:w-auto rounded-full px-8 py-6 text-lg bg-white/90 text-slate-800 hover:bg-white border text-slate-700 border-slate-200 hover:border-primary/40 shadow-sm hover:shadow-md transition-all duration-300 group" asChild>
-                                <a href="tel:09801073535">
+                                <a href="tel:09334731131">
                                     <Phone className="mr-2 w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
                                     Call Now
                                 </a>

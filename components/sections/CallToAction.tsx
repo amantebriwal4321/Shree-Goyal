@@ -45,7 +45,7 @@ export default function CallToAction() {
                         </Link>
                     </Button>
                     <Button size="lg" variant="outline" className="rounded-full px-8 py-6 text-lg border-2 border-white/20 bg-transparent text-white hover:bg-white/10 hover:text-white" asChild>
-                        <a href="tel:09801073535">
+                        <a href="tel:09334731131">
                             <Phone className="mr-2 w-5 h-5" />
                             Call Now
                         </a>
