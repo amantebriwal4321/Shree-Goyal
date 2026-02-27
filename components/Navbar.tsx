@@ -94,7 +94,7 @@ export default function Navbar() {
                         className="bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/20 hover:shadow-primary/30 transition-all duration-300 rounded-full px-6"
                         asChild
                     >
-                        <Link href="https://wa.me/919334731131" target="_blank">
+                        <Link href="https://wa.me/919801073535" target="_blank">
                             Chat on WhatsApp
                         </Link>
                     </Button>
@@ -149,7 +149,7 @@ export default function Navbar() {
                                     </a>
                                 </div>
                                 <Button size="lg" className="w-full bg-primary rounded-full shadow-lg shadow-primary/20 text-lg py-6" asChild>
-                                    <a href="https://wa.me/919334731131" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://wa.me/919801073535" target="_blank" rel="noopener noreferrer">
                                         Chat on WhatsApp
                                     </a>
                                 </Button>

@@ -39,13 +39,13 @@ export default function CallToAction() {
                     className="flex flex-col sm:flex-row gap-4 justify-center"
                 >
                     <Button size="lg" className="rounded-full px-8 py-6 text-lg bg-white text-primary hover:bg-blue-50 transition-colors" asChild>
-                        <Link href="https://wa.me/919334731131" target="_blank">
+                        <Link href="https://wa.me/919801073535" target="_blank">
                             Chat on WhatsApp
                             <ArrowRight className="ml-2 w-5 h-5" />
                         </Link>
                     </Button>
                     <Button size="lg" variant="outline" className="rounded-full px-8 py-6 text-lg border-2 border-white/20 bg-transparent text-white hover:bg-white/10 hover:text-white" asChild>
-                        <a href="tel:09334731131">
+                        <a href="tel:09801073535">
                             <Phone className="mr-2 w-5 h-5" />
                             Call Now
                         </a>

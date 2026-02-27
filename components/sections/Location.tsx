@@ -56,7 +56,7 @@ export default function Location() {
                                     <Phone className="w-6 h-6 text-green-600" />
                                 </div>
                                 <div>
-                                    <p className="text-slate-900 font-medium text-lg">093347 31131</p>
+                                    <p className="text-slate-900 font-medium text-lg">098010 73535</p>
                                     <p className="text-slate-500">Always ready to assist you</p>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@ export default function Location() {
                                 </a>
                             </Button>
                             <Button size="lg" variant="outline" className="rounded-full px-8 py-6 text-lg border-2 text-slate-700 hover:bg-slate-50 hover:text-primary transition-colors group" asChild>
-                                <a href="tel:09334731131">
+                                <a href="tel:09801073535">
                                     <Phone className="mr-2 w-5 h-5 group-hover:scale-110 transition-transform" />
                                     Call Now
                                 </a>
