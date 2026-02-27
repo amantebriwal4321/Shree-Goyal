@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+
+  /* Deep Royal Blue (Primary) */
+  --primary: #002366;
+  --primary-foreground: #ffffff;
+
+  /* Soft Light Blue (Secondary) */
+  --secondary: #e0f2fe;
+  --secondary-foreground: #002366;
+
+  /* Accent (Metallic/Silver/Glow) */
+  --accent: #94a3b8;
+  --accent-foreground: #ffffff;
+
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: #020617;
+  --foreground: #f8fafc;
+
+  --primary: #1e3a8a;
+  --primary-foreground: #ffffff;
+
+  --secondary: #1e293b;
+  --secondary-foreground: #f8fafc;
+
+  --accent: #334155;
+  --accent-foreground: #ffffff;
+
+  --muted: #0f172a;
+  --muted-foreground: #94a3b8;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+}
